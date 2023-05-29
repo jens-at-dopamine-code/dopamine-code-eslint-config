@@ -1,0 +1,14 @@
+module.exports = {
+  extends: ['./react', './typescript'],
+  rules: {
+    'import/extensions': [
+      'error',
+      {
+        tsx: 'never',
+      },
+    ],
+    'react/prop-types': 'off',
+    'react/require-default-props': 'off',
+    'react/jsx-props-no-spreading': 'off',
+  },
+};
