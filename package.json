@@ -1,6 +1,6 @@
 {
   "name": "@dopamine-code/eslint-config",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Eslint config with prettier for node and react projects in js or ts",
   "main": "index.js",
   "repository": {
