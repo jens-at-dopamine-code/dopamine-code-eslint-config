@@ -1,6 +1,6 @@
 {
   "name": "@dopamine-code/eslint-config",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Eslint config with prettier for node and react projects in js or ts",
   "main": "index.js",
   "repository": {
@@ -32,7 +32,8 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-simple-import-sort": "^10.0.0"
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-tailwindcss": "^3.13.0"
   },
   "devDependencies": {
     "eslint": "^8.35.0",

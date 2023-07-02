@@ -3,6 +3,7 @@ module.exports = {
   rules: {
     'import/extensions': [
       'error',
+      'ignorePackages',
       {
         tsx: 'never',
       },
@@ -10,5 +11,6 @@ module.exports = {
     'react/prop-types': 'off',
     'react/require-default-props': 'off',
     'react/jsx-props-no-spreading': 'off',
+    'react/jsx-no-useless-fragment': ['error', { allowExpressions: true }],
   },
 };

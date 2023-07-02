@@ -35,12 +35,13 @@ You can add your own custom rules for edge cases in your project.
 
 This library has the following configurations available:
 
-| Name                                           | Description                                                  |
-| ---                                            | ---                                                          |
+| Name                                            | Description                                                  |
+| ---                                             | ---                                                          |
 | `@dopamine-code`                                | Base config for Node projects that use plain JavaScript      |
 | `@dopamine-code/eslint-config/react`            | Frontend config for React projects that use Babel            |
 | `@dopamine-code/eslint-config/typescript`       | Base config for Node projects that use TypeScript            |
 | `@dopamine-code/eslint-config/react-typescript` | Frontend config for React projects that use TypeScript       |
+| `@dopamine-code/eslint-config/next-typescript`  | Frontend config for React projects that use Next.js          |
 
 All specific configs extend from the base config, so only extending 1
 config suffices.
