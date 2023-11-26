@@ -48,6 +48,11 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 'error',
     'sort-imports': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
-    '@typescript-eslint/consistent-type-imports': 'error',
+    '@typescript-eslint/consistent-type-imports': [
+      'error',
+      {
+        fixStyle: 'inline-type-imports',
+      },
+    ],
   },
 };
