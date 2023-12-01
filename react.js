@@ -2,7 +2,7 @@ module.exports = {
   env: {
     browser: true,
   },
-  extends: ['airbnb', './index', 'prettier'],
+  extends: ['airbnb', 'airbnb-typescript', './index', 'prettier'],
   parser: '@babel/eslint-parser',
   parserOptions: {
     ecmaFeatures: {
